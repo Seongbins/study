@@ -1,6 +1,8 @@
 # study
 
-1.java
-- 매일 매일 정리해서 업로드 할 것
-- 궁금한 것이 생기면 정리해서 누나한테 물어볼 것
+[java]
+1. public static void main(String[] args) { } 는 고정적인가? / 2020-01-03
+- https://superfelix.tistory.com/125
+- https://newstars.tistory.com/31
+
 
