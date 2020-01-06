@@ -27,3 +27,5 @@ public static void main(String[] args)
 (2,2)에서 크기가 8x7인 사각형  
 s의 면적은 36  
 t는 r을 포함합니다.  
+
+
