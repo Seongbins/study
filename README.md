@@ -5,6 +5,3 @@
 - https://superfelix.tistory.com/125
 - https://newstars.tistory.com/31
 
-
-memo
-4장 1월 8일까지 :)
