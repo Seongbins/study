@@ -6,7 +6,7 @@
 ```java
 interface IStack<T> 
 {
-  T pop();  
+	T pop();  
 	boolean push(T ob);  
 }  
 ```
@@ -17,16 +17,16 @@ interface IStack<T>
 ```java
 public class StackManager 
 {
-  public static void main(String[] args) 
-  {  
-    IStack<Integer> stack = new MyStack<Integer>();    
+  	public static void main(String[] args) 
+  	{  
+  		IStack<Integer> stack = new MyStack<Integer>();    
       
-    for (int i=0; i<10; i++)   
-      stack.push(i);  
+    		for (int i=0; i<10; i++)   
+      			stack.push(i);  
       
-    while(true)   
-    {  
-		  Integer  n = stack.pop();  
+    		while(true)   
+    		{  
+			Integer  n = stack.pop();  
 			if(n == null) break;  
 			System.out.print(n+" ");  
 		}    
