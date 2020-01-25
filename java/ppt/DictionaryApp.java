@@ -91,12 +91,12 @@ public class DictionaryApp
 	public static void main(String args[])
 	{
 		Dictionary dic = new Dictionary(10);
-		dic.put("È²±âÅÂ", "ÀÚ¹Ù");
-		dic.put("ÀÌÀç¹®", "ÆÄÀÌ¼±");
-		dic.put("ÀÌÀç¹®", "C++");
-		System.out.println("ÀÌÀç¹®ÀÇ °ªÀº " + dic.get("ÀÌÀç¹®"));
-		System.out.println("È²±âÅÂÀÇ °ªÀº " + dic.get("È²±âÅÂ"));
-		dic.delete("È²±âÅÂ");
-		System.out.println("È²±âÅÂÀÇ °ªÀº " + dic.get("È²±âÅÂ"));
+		dic.put("í™©ê¸°íƒœ", "ìë°”");
+		dic.put("ì´ì¬ë¬¸", "íŒŒì´ì„ ");
+		dic.put("ì´ì¬ë¬¸", "C++");
+		System.out.println("ì´ì¬ë¬¸ì˜ ê°’ì€ " + dic.get("ì´ì¬ë¬¸"));
+		System.out.println("í™©ê¸°íƒœì˜ ê°’ì€ " + dic.get("í™©ê¸°íƒœ"));
+		dic.delete("í™©ê¸°íƒœ");
+		System.out.println("í™©ê¸°íƒœì˜ ê°’ì€ " + dic.get("í™©ê¸°íƒœ"));
 	}
 }
