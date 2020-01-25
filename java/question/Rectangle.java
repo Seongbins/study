@@ -18,7 +18,7 @@ public class Rectangle
 	
 	public void show()
 	{
-		System.out.println("(" + this.x + "," + this.y + ")¿¡¼­ Å©±â°¡ " + this.width + "x" + this.height + "ÀÎ »ç°¢Çü");
+		System.out.println("(" + this.x + "," + this.y + ")ì—ì„œ í¬ê¸°ê°€ " + this.width + "x" + this.height + "ì¸ ì‚¬ê°í˜•");
 	}
 	
 	public boolean contains(Rectangle r)
@@ -36,8 +36,8 @@ public class Rectangle
 	   Rectangle t = new Rectangle(1, 1, 10, 10);  
 	     
 	   r.show();  
-	   System.out.println("sÀÇ ¸éÀûÀº "+s.square());  
-	   if(t.contains(r)) System.out.println("t´Â rÀ» Æ÷ÇÔÇÕ´Ï´Ù.");  
-	   if(t.contains(s)) System.out.println("t´Â s¸¦ Æ÷ÇÔÇÕ´Ï´Ù.");  
+	   System.out.println("sì˜ ë©´ì ì€ "+s.square());  
+	   if(t.contains(r)) System.out.println("tëŠ” rì„ í¬í•¨í•©ë‹ˆë‹¤.");  
+	   if(t.contains(s)) System.out.println("tëŠ” së¥¼ í¬í•¨í•©ë‹ˆë‹¤.");  
 	}  
 }
