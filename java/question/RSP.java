@@ -9,14 +9,14 @@ public class RSP
 		Random random = new Random();
 		while(true)
 		{
-			System.out.print("°¡À§, ¹ÙÀ§, º¸ Áß¿¡¼­ ÇÏ³ª¸¦ ÀÔ·ÂÇÏ¼¼¿ä.(±×¸¸ÇÏ°í ½ÍÀ¸¸é ±×¸¸À» ÀÔ·ÂÇÏ¼¼¿ä) : ");
+			System.out.print("ê°€ìœ„, ë°”ìœ„, ë³´ ì¤‘ì—ì„œ í•˜ë‚˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”.(ê·¸ë§Œí•˜ê³  ì‹¶ìœ¼ë©´ ê·¸ë§Œì„ ì…ë ¥í•˜ì„¸ìš”) : ");
 			String s1 = scanner.next();
 			int i1;
-			if(s1.equals("±×¸¸"))
+			if(s1.equals("ê·¸ë§Œ"))
 				break;
-			else if(s1.equals("°¡À§"))
+			else if(s1.equals("ê°€ìœ„"))
 				i1 = 0;
-			else if(s1.equals("¹ÙÀ§"))
+			else if(s1.equals("ë°”ìœ„"))
 				i1 = 1;
 			else
 				i1 = 2;
@@ -24,20 +24,20 @@ public class RSP
 			int i2 = random.nextInt(3);
 			
 			if(i1 == i2)
-				System.out.println("ºñ°å½À´Ï´Ù.");
+				System.out.println("ë¹„ê²¼ìŠµë‹ˆë‹¤.");
 			else if(i1 > i2)
 			{
 				if(i1 - i2 == 2)
-					System.out.println("Á³½À´Ï´Ù.");
+					System.out.println("ì¡ŒìŠµë‹ˆë‹¤.");
 				else
-					System.out.println("ÀÌ°å½À´Ï´Ù.");
+					System.out.println("ì´ê²¼ìŠµë‹ˆë‹¤.");
 			}
 			else
 			{
 				if(i2 - i1 == 2)
-					System.out.println("ÀÌ°å½À´Ï´Ù.");
+					System.out.println("ì´ê²¼ìŠµë‹ˆë‹¤.");
 				else
-					System.out.println("Á³½À´Ï´Ù.");
+					System.out.println("ì¡ŒìŠµë‹ˆë‹¤.");
 			}
 		}
 		scanner.close();
@@ -45,7 +45,7 @@ public class RSP
 }
 
 /*
-°¡À§ 0
-¹ÙÀ§ 1
-º¸ 2
+ê°€ìœ„ 0
+ë°”ìœ„ 1
+ë³´ 2
 */
