@@ -55,25 +55,25 @@ public class StackApp
 		String s;
 		
 		Scanner scanner = new Scanner(System.in);
-		System.out.print("ÃÑ ½ºÅÃ ÀúÀå °ø°£ÀÇ Å©±â ÀÔ·Â >> ");
+		System.out.print("ì´ ìŠ¤íƒ ì €ì¥ ê³µê°„ì˜ í¬ê¸° ì…ë ¥ >> ");
 		cap = scanner.nextInt();
 		Stack stack = new StringStack(cap);
 		
 		while(true)
 		{
-			System.out.print("¹®ÀÚ¿­ ÀÔ·Â >> ");
+			System.out.print("ë¬¸ìì—´ ì…ë ¥ >> ");
 			s = scanner.next();
-			if(s.equals("±×¸¸"))
+			if(s.equals("ê·¸ë§Œ"))
 			{
 				int l = stack.length();
-				System.out.print("½ºÅÃ¿¡ ÀúÀåµÈ ¸ğµç ¹®ÀÚ¿­ ÆË : ");
+				System.out.print("ìŠ¤íƒì— ì €ì¥ëœ ëª¨ë“  ë¬¸ìì—´ íŒ : ");
 				for(int i = 0; i < l; i++)
 					System.out.print(stack.pop() + " ");
 				break;
 			}
 			if(stack.push(s) == false)
 			{
-				System.out.println("½ºÅÃÀÌ ²Ë Â÷¼­ Çª½Ã ºÒ°¡!");
+				System.out.println("ìŠ¤íƒì´ ê½‰ ì°¨ì„œ í‘¸ì‹œ ë¶ˆê°€!");
 			}
 		}
 		scanner.close();
