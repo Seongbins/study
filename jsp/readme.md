@@ -10,7 +10,7 @@
 - [x] Chapter06 : JSP 내장객체
 - [x] Chapter07 : JSP와 자바 빈즈
 - [x] Chapter08 : 데이터베이스와 JDBC
-- [ ] 실습프로젝트1
-- [ ] Chapter09 : 웹 어플리케이션 아키텍처
-- [ ] Chapter10 : 표현 언어와 커스텀 태그
+- [x] 실습프로젝트1
+- [x] Chapter09 : 웹 어플리케이션 아키텍처
+- [x] Chapter10 : 표현 언어와 커스텀 태그
 - [ ] Chapter11 : JSTL의 이해와 활용
